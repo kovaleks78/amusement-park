@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2193e582-a94f-4694-9bbe-c5c7e0c06750">
+  <producedTypes>
+    <selectionType typeId="fb31bc2b-13b1-4abe-a405-1f3c53f78c38" valueTypeId="c088a527-2903-46f7-884f-a88be33fa57f"/>
+    <listType typeId="041052f0-b9d1-4260-aa38-ae84ac36345c" valueTypeId="a7d39681-b318-4a46-b3a1-8cfd10439d85"/>
+    <managerType typeId="ea8320c4-8764-4180-8161-fcec586fb69a" valueTypeId="113a53f8-0c18-48d2-a086-5f6a8b256fa1"/>
+    <recordSetType typeId="b4a4f778-b8e7-4dd9-b9a7-6893fa00d9bb" valueTypeId="edf445c0-f257-4074-96a1-9c6ee9a066ed"/>
+    <recordKeyType typeId="f106c0b9-4dd6-4bde-a316-c10c75ca60b8" valueTypeId="920f6c69-7f30-45d9-aa98-9e89938999c2"/>
+    <recordType typeId="2ec56639-3224-4c02-89e6-35f8c065879e" valueTypeId="dd165ecc-2ca9-44cf-9cac-e32b75179a12"/>
+    <recordManagerType typeId="f3d470b1-835c-41d0-b212-f64f0f479995" valueTypeId="921cb3f8-ffef-4736-bbd3-de31b16145f3"/>
+  </producedTypes>
+  <name>АктуальнаяШкалаБонуснойПрограммы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Актуальная шкала бонусной программы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="8edfdfd2-2207-44bf-b544-69023b14e7ca">
+    <name>Шкала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шкала</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ШкалаБонуснойПрограммы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+</mdclass:InformationRegister>
